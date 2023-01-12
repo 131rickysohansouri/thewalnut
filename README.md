@@ -1,6 +1,8 @@
 
 # Assignment-1
 Extract text blocks from a PDF document with each paragraph as a separate line and text being in reading order going from first column from top to bottom and then into second column and then third column. Dump the output in an excel file.
+
+
 I have employed the pymupdf and openpyxl libraries. I read the page as blocks using PyMuPDF. I was able to locate the paragraphs using the coordinates given by PyMuPDF . After extracting the paragraphs into a dataframe, I made a few minor cleaning improvements. I then dumped it all onto Excel. Any PDF page in the provided PDF can be run using this code.
 
 
